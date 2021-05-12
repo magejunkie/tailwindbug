@@ -16,7 +16,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 body: ['Avenir', 'sans-serif'],
-                proxima: ['"proxima-nova"', 'sans-serif'],
+                proxima: ['"proxima-nova"', 'sans-serif'], // doesn't generate css class font-proxima as expected.
             },
         }
     },
